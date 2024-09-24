@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>READ</h1>
+      <h1>Reading Data from Database</h1>
 
       {users &&
         users.length > 0 &&

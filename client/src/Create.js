@@ -28,26 +28,27 @@ export default function Create() {
       .post(`${baseUrl}/create`, user)
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
+      alert('Saved successfully')
   };
 
   return (
     <div className="App">
-      <h1>Create</h1>
+      <h1>Create Records</h1>
 
       <input
         placeholder="name"
         onChange={handleChange}
         name="name"
         value={user.name}
-      />
+      /> <br /><br />
       <input
         placeholder="last name"
         onChange={handleChange}
         name="lastName"
         value={user.lastName}
       />
-
-      <button onClick={saveData}>Save to MongoDB</button>
+<br /><br /><br />
+      <button onClick={saveData}>Save to MongoDB</button>&nbsp;&nbsp;&nbsp;
       <button onClick={() => navigate(-1)}>Back</button>
     </div>
   );
