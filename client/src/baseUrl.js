@@ -1,4 +1,4 @@
-const baseUrl = "https://mern-app-c5h5afavb3acc2dj.canadacentral-01.azurewebsites.net/";
+const baseUrl = "mern-azure-adavd6g0agbfbtck.canadacentral-01.azurewebsites.net";
 
 // const baseUrl = "http://localhost:3001"
 
